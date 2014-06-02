@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+public class Player02 {
+  private String name;
+  private int coins;
+  static Deck playerDeck;
+  int value;
+  public Player02 (String aName) {
+    name = aName;
+    coins = 5000;
+    playerDeck = new Deck();
+  }
+  
+  public String getName() {
+   return name; 
+  }
+  public int getCoins() {
+    return coins;
+  }
+  
+
+  
+  
+}
